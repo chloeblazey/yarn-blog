@@ -1,5 +1,6 @@
 ---
 import '../styles/tailwind.css';
+import Nav from '../components/Nav.astro';
 ---  
 <html lang="en">
 	<head>
@@ -10,11 +11,7 @@ import '../styles/tailwind.css';
 		<title>Astro</title>
 	</head>
 	<body>
-    <nav class="navbar">
-      <a href="/">Home</a>
-      <a href="/about">About</a>
-      <a href="/projects">Projects</a>
-    </nav>
-		<h1>Hello Astro (projects)</h1>
+		<Nav />
+		<h1>My Projects</h1>
 	</body>
 </html>
